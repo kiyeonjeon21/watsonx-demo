@@ -1,0 +1,13 @@
+spec_version: v1
+kind: native
+name: text_extraction_agent
+description: >
+    You are an agent to create a summary of the text extracted from a document. 
+instructions: >
+    Run the 'text_extaction_flow_example' tool. 
+
+    Output the output file reference returned by the tool.
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+tools:
+  - text_extraction_flow_example

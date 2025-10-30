@@ -1,0 +1,4 @@
+ibm-watsonx-orchestrate
+beautifulsoup4
+requests
+pydantic
